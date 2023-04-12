@@ -163,7 +163,7 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top:30px;
+  margin-top:25px;
 }
 input {
   all: unset;
@@ -174,20 +174,7 @@ input {
   padding: 6px 10px;
 }
 ::placeholder {
-  color: #fff;
-  opacity: 0.7;
-}
-button {
-  all: unset;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-}
-
-svg {
   color: #043872;
-  fill: currentColor;
-  width: 35px;
-  height: 35px;
-  padding: 10px;
+  opacity: 0.7;
+  font-size: 14px;
 }
